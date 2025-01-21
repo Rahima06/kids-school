@@ -88,6 +88,7 @@
 }
 
 .banner {
+
     justify-content: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -102,6 +103,52 @@
     margin-right: 150px;
 }
 
+/* standard curriculum styling */
+
+.Curriculm-heading {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url("/assets/bg.png");
+    text-align: center;
+
+}
+
+.card-curriculum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: transparent;
+    border: none;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-blue {
+    color: aqua;
+}
+
+.dark-blue {
+    color: blue;
+}
 
 
 
