@@ -105,7 +105,7 @@
 
 /* standard curriculum styling */
 
-.Curriculm-heading {
+.heading {
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
@@ -114,6 +114,23 @@
 .bg-img {
     background-image: url("/assets/bg.png");
     text-align: center;
+    border-radius: 8px;
+    box-shadow: rgb(241, 221, 221);
+
+
+
+}
+
+.kinder {
+    background-image: linear-gradient(to bottom, rgb(232, 247, 247), white);
+}
+
+.elementery {
+    background-image: linear-gradient(to bottom, rgb(252, 222, 185), white);
+}
+
+.middle {
+    background-image: linear-gradient(to bottom, rgb(242, 215, 250), white);
 
 }
 
@@ -126,6 +143,7 @@
     margin-right: 150px;
     margin-left: 150px;
 }
+
 
 .btn {
     font-size: 1rem;
@@ -140,15 +158,78 @@
 
 .color-orange {
     color: orange;
+    border-radius: 5px;
+
+}
+
+.read-1:hover {
+    background-color: rgb(44, 123, 123);
 }
 
 .color-blue {
     color: aqua;
+    border-radius: 5px;
+}
+
+.read-2:hover {
+    background-color: rgb(189, 79, 6);
 }
 
 .dark-blue {
     color: blue;
+    border-radius: 5px;
 }
+
+.read-3:hover {
+    background-color: rgb(156, 156, 180);
+}
+
+/* styling story part */
+
+.story-1 {
+
+    margin-bottom: 20p;
+}
+
+.story {
+    background-image: url("/assets/bg.png");
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+}
+
+.story-btn {
+    font-size: .75rem;
+    font-weight: 200px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: aqua;
+    color: azure;
+    border-radius: 10px;
+    border: none;
+    align-content: space-between;
+    margin-right: -50px;
+
+
+}
+
+.margin {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 10px;
+}
+
+.alignment {
+    align-self: auto;
+}
+
+
 
 
 
