@@ -356,34 +356,28 @@
 
     }
 
-    .display-flex,
-    {
-    display: block;
-}
+    .display-flex {
+        display: block;
+    }
 
-.icon {
-    display: flex;
-}
+    .icon {
+        display: flex;
+    }
 
-.first-heading {
-    display: none;
-}
+    .first-heading {
+        display: none;
+    }
 
-.heading {
+    .heading {
 
-    display: flex;
+        display: flex;
 
-}
+    }
 
-.logo-img {
+    .logo-img {
 
-    position: relative;
-    left: -60px;
-}
+        position: relative;
+        left: -60px;
 
-
-
-
-
-
+    }
 }
