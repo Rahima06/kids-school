@@ -188,7 +188,7 @@
 
 .story-1 {
 
-    margin-bottom: 20p;
+    margin-bottom: 30px;
 }
 
 .story {
@@ -202,6 +202,8 @@
 
 }
 
+
+
 .story-btn {
     font-size: .75rem;
     font-weight: 200px;
@@ -213,9 +215,6 @@
     color: azure;
     border-radius: 10px;
     border: none;
-    align-content: space-between;
-    margin-right: -50px;
-
 
 }
 
@@ -225,13 +224,34 @@
     margin-top: 10px;
 }
 
-.alignment {
-    align-self: auto;
+.btn-view {
+
+    margin-left: 650px;
+
 }
 
+/* styling footer */
 
+.display {
 
+    display: flex;
+}
 
+.footer {
+    background-color: #036d9e;
+    margin-top: 30px;
+    max-width: auto 0;
+
+}
+
+.list-item {
+    list-style: none;
+
+}
+
+.text-color {
+    color: white;
+}
 
 
 @media screen and (max-width: 576px) {
