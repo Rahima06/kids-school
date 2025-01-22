@@ -20,6 +20,8 @@
 }
 
 
+
+
 /* navigation style */
 .navitem {
     list-style: none;
@@ -336,7 +338,7 @@
     }
 
     .card-curriculum {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 2fr);
     }
 
     .story-1 {
